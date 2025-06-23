@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class AppController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
-    public String getClicks(@PathVariable String tiny) {
+    public String getClicks() {
         return "hello";
     }
 }
