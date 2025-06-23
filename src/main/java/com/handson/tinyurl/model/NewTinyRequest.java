@@ -6,4 +6,10 @@ public class NewTinyRequest {
     public String getLongUrl() {
         return longUrl;
     }
+
+    private  String userName;
+
+    public String getUserName() {
+        return userName;
+    }
 }
