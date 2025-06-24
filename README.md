@@ -48,4 +48,68 @@ You can test the project **live** using Swagger UI here:
 ```bash
 git clone https://github.com/YOUR_USERNAME/tinyurl.git
 cd tinyurl
+```
+
+### 2. 🐳 Start Databases with Docker Compose
+```bash
+Run the following command to spin up MongoDB, Cassandra, and Redis using Docker:
+
+bash
+Copy
+Edit
+docker-compose up -d
+This starts:
+
+🟢 MongoDB on port 27017
+
+🟣 Cassandra on port 9042
+
+🔴 Redis on port 6379
+```
+### 3. 🏗️ Build the Project with Maven
+```bash
+If you’re using the Maven Wrapper:
+
+bash
+Copy
+Edit
+./mvnw clean package
+Or with Maven installed:
+
+bash
+Copy
+Edit
+mvn clean package
+This will generate a .jar file inside the target/ folder.
+```
+### 4. 📦 Build the Docker Image
+```bash
+Use the Dockerfile in the root of the project to build the image:
+
+bash
+Copy
+Edit
+docker build -t tinyurl .
+```
+### 5. 🚀 Run the Application Container
+```bash
+Launch the application using:
+
+bash
+Copy
+Edit
+docker run -p 8080:8080 tinyurl
+This exposes the app on http://localhost:8080
+
+To access the Swagger UI:
+
+bash
+Copy
+Edit
+http://localhost:8080/swagger-ui.html
+Or visit the deployed version:
+
+👉 https://binny-tinyurlbinny.runmydocker-app.com/swagger-ui.html
+```
+
 
