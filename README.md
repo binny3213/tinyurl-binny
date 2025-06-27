@@ -11,7 +11,7 @@ TinyURL is a Backend Java + Spring Boot application that shortens long URLs, tra
 ## 🌐 Live Demo
 
 You can test the project **live** using Swagger UI here:  
-👉 [https://binny-tinyurlbinny.runmydocker-app.com/swagger-ui.html](https://binny-tinyurlbinny.runmydocker-app.com/swagger-ui.html)
+👉 [https://binny-tinyurlbinny.runmydocker-app.com/swagger-ui.html](https://binny-tinyurl.runmydocker-app.com/swagger-ui.html)
 
 > You can create users, shorten URLs, and track clicks — all from the browser.
 
