@@ -39,6 +39,11 @@ You can test the project **live** using Swagger UI here:
   <img src="https://github.com/devicons/devicon/blob/master/icons/intellij/intellij-original.svg" title="intellij" **alt="intellij" width="60" height="60"/>
 </div>
 
+### Technology Tools Diagram:
+
+<img width="1263" height="717" alt="Screenshot 2025-11-08 094538" src="https://github.com/user-attachments/assets/6aa9aa7a-d474-438a-8f48-3830ab877476" />
+
+
 ---
 
 ## ⚙️ Run Locally
